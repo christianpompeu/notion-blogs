@@ -1,7 +1,7 @@
 import { Client } from "@notionhq/client";
-import { NotionToMarkdown } from "notion-to-md";
 import { PageObjectResponse } from "@notionhq/client/";
 import fs from "fs";
+import { NotionToMarkdown } from "notion-to-md";
 import path from "path";
 
 export const notion = new Client({ auth: process.env.NOTION_TOKEN });
